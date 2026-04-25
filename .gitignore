@@ -1,0 +1,140 @@
+# ------------------------------
+
+# 🔐 Environment Variables
+
+# ------------------------------
+
+.env
+.env.*
+*.env
+
+# ------------------------------
+
+# 🐍 Python
+
+# ------------------------------
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ------------------------------
+
+# 🧪 Virtual Environment
+
+# ------------------------------
+
+venv/
+.venv/
+env/
+ENV/
+
+# ------------------------------
+
+# 📦 Pip / Dependency
+
+# ------------------------------
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ------------------------------
+
+# 🧠 IDE / Editor
+
+# ------------------------------
+
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# ------------------------------
+
+# 🧾 Logs
+
+# ------------------------------
+
+*.log
+logs/
+*.out
+*.err
+
+# ------------------------------
+
+# 📊 Streamlit
+
+# ------------------------------
+
+.streamlit/secrets.toml
+
+# ------------------------------
+
+# 🗃️ Database / Cache
+
+# ------------------------------
+
+*.db
+*.sqlite3
+.cache/
+*.pkl
+
+# ------------------------------
+
+# 📁 OS Files
+
+# ------------------------------
+
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+
+# 📤 Uploads / Temp Files
+
+# ------------------------------
+
+uploads/
+tmp/
+temp/
+
+# ------------------------------
+
+# 🧪 Testing / Coverage
+
+# ------------------------------
+
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# ------------------------------
+
+# 🚀 Deployment
+
+# ------------------------------
+
+*.pem
+*.key
+*.crt
