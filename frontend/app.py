@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BACKEND_URL = "http://127.0.0.1:8000"
+BACKEND_URL = "http://backend:8000"
 
 st.title("🌾 Agri AI System")
 
@@ -100,22 +100,6 @@ elif mode == "Triage Agent":
         col1.metric("Intent", intent)
         col2.metric("Urgency", urgency)
 
-        # =========================
-        # 🧾 ENTITIES
-        # =========================
-        # st.subheader("🧾 Extracted Entities")
-
-        # entities = result.get("entities", {})
-
-        # ids = entities.get("ids", [])
-        # dates = entities.get("dates", [])
-
-        # st.write(f"🔢 IDs: {', '.join(ids) if ids else 'None'}")
-        # st.write(f"📅 Dates: {', '.join(dates) if dates else 'None'}")
-
-        # =========================
-        # ✉️ CLEAN DRAFT RESPONSE
-        # =========================
         st.subheader("✉️ Suggested Actions")
 
         draft = result.get("draft_response", "")
